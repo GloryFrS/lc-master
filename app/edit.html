@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+
+	<meta charset="utf-8">
+	<!-- <base href="/"> -->
+
+	<title>Мастер и модель</title>
+	<meta name="description" content="">
+
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	
+	<!-- Template Basic Images Start -->
+	<meta property="og:image" content="path/to/image.jpg">
+	<link rel="icon" href="img/favicon/favicon.ico">
+	<link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-touch-icon-180x180.png">
+	<!-- Template Basic Images End -->
+	
+	<!-- Custom Browsers Color Start -->
+	<meta name="theme-color" content="#000">
+	<!-- Custom Browsers Color End -->
+
+	<link rel="stylesheet" href="css/main.min.css">
+
+</head>
+
+<body>
+	<div class="container">
+        <div class="row">
+            <div class="col-12">
+                <div class="d-flex">
+                    <h3 class="title">Редактирование профиля</h3>
+                    <div class="btn-block d-flex">
+                        <a class="btn" href="">Сохранить изменения</a>
+                        <a class="btn-cancel" href="">Отмена</a>
+                    </div>
+                </div>
+                 
+                <form class="edit-profile">
+                    <div class="row">
+                        <div class="form-group col-md-6">
+                            <label for="name-input">Ваша имя и фамилия</label>
+                            <input type="text" id='name-input' class="form-control" value="Ольга Петрова" placeholder="Введите имя и фамилию">
+                        </div>
+                        <div class="form-group col-md-6">
+                            <label for="tel">Телефон</label>
+                            <input type="tel" class="form-control" id="tel" value="+ 7 (961) 996-25-03" placeholder="Введите номер">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <label class="fix-label">Адрес</label>
+                        <div class="form-group col-md-3">
+                            <input type="text" class="form-control" value="" placeholder="Страна">
+                        </div>
+                        <div class="form-group col-md-3">                            
+                            <input type="text" class="form-control"  value="" placeholder="Город">
+                        </div>
+                        <div class="form-group col-md-3">                            
+                            <input type="text"  class="form-control" value="" placeholder="Улица">
+                        </div>
+                        <div class="form-group col-md-3">                            
+                            <input type="text" class="form-control" value="" placeholder="Дом">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="form-group col-md-6">
+                            <label >Ссылка на ваш профиль ВК</label>
+                            <input type="text" id='name-input' class="form-control" value="https://vk.com/id155648422" placeholder="https://vk.com/id155648422">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="form-group col-md-12">
+                            <label >О себе</label>
+                            <textarea class="form-control"  rows="5"></textarea>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="form-group col-md-9">
+                            <label >Ваши услуги</label>
+                            <div class="row" style="align-items: center;">
+                                <div class="col-md-6">
+                                    <select class="form-control" id="service">
+                                        <option>1</option>
+                                        <option>2</option>
+                                        <option>3</option>
+                                        <option>4</option>
+                                        <option>5</option>
+                                    </select>
+                                </div>
+                                <div class="col-md-4">
+                                    <input id="price" class="form-control" type="text">
+                                </div>
+                                <div class="col-md-2">
+                                    <a id="add">+</a>
+                                </div>
+                            </div>
+                            <div id="dynamic_field">
+                                
+                            </div>
+                            
+                            
+                            
+
+                            
+                        </div>
+                    </div>
+                    <div class="btn-block-bottom d-flex">
+                        <a class="btn" href="/card.html">Сохранить изменения</a>
+                        <a class="btn-cancel" href="">Отмена</a>
+                    </div>
+                </form>
+    
+            </div>
+        </div>
+    </div>
+	
+    
+    <script src="js/scripts.min.js"></script>
+    
+
+</body>
+</html>
